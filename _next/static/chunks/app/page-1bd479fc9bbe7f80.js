@@ -18,7 +18,7 @@
                         className: "mb-4 relative w-[150px] h-[150px] overflow-hidden rounded-full",
                         children: (0, s.jsx)(n.default, {
                             src: "/profile-image.jpg",
-                            alt: "Oskar Frantti Glen",
+                            alt: "Yash Mishra",
                             layout: "fill",
                             objectFit: "cover"
                         })
@@ -52,16 +52,16 @@
                         children: "About Me"
                     }), (0, s.jsxs)("p", {
                         className: "text-gray-300 mb-4",
-                        children: ["I'm a ", e, "-year-old experienced Web and Cloud Developer with a knack for building products that make a difference. My expertise spans both frontend and backend technologies, enabling me to craft comprehensive solutions from the ground up."]
+                        children: ["I'm a ", e, "-year-old experienced Web and Cloud Developer with a knack for building products that make a difference. My expertise spans both frontend and cloud technologies, enabling me to craft comprehensive solutions from the ground up."]
                     }), (0, s.jsx)("p", {
                         className: "text-gray-300 mb-4",
-                        children: "Throughout my career, I've been deeply involved in the startup ecosystem. I've worked with various startups, embracing the fast-paced, innovative nature of these environments. This journey led me to found my own startup, where I gained firsthand experience in every aspect of product development and business operations."
+                        children: "Throughout my career, I've been deeply involved in the startup ecosystem."
                     }), (0, s.jsx)("p", {
                         className: "text-gray-300 mb-4",
-                        children: "During my high school years, I excelled in software development, earning the prestigious title of DUX (top student) in this field. This early achievement laid the foundation for my passion and expertise in programming."
+                        children: "During my high school years, I excelled in software development . This early achievement laid the foundation for my passion and expertise in programming."
                     }), (0, s.jsx)("p", {
                         className: "text-gray-300 mb-6",
-                        children: "When I'm not immersed in code, you'll find me experimenting in the kitchen or bringing ideas to life with my 3D printer. I'm always creating, whether it's digital products or tangible objects."
+                        children: "When I'm not immersed in code, you'll find me experimenting in the kitchen or bringing ideas to life. I'm always creating, whether it's digital products or tangible objects."
                     })]
                 })
             };
@@ -114,11 +114,11 @@
                     })
                 },
                 h = {
-                    languages: ["JavaScript", "TypeScript", "Python", "C++", "C#", "Rust"],
-                    frameworks: ["ReactJS", "NextJS", "Tauri", "React Native", "ExpressJS", "Flask", "Django", "ASP.Net"],
+                    languages: ["JavaScript", "Python", "C++", "C#"],
+                    frameworks: ["ReactJS", "React Native", "Flask"],
                     backend: ["Node.js", ".NET", "REST APIs", "Microservices"],
                     databases: ["Postgres", "SQL", "MongoDB", "Elasticsearch"],
-                    practices: ["Microservices", "Microfrontend", "Agile", "Git"]
+                    practices: ["Microservices", "Microfrontend", "Git"]
                 };
             var p = () => (0, s.jsxs)("div", {
                 children: [(0, s.jsx)("h2", {
@@ -139,22 +139,15 @@
                 })]
             });
             let x = [{
-                title: "CTO & Founder",
-                company: "Shifti",
-                location: "Melbourne, Victoria",
-                period: "April 2023 - Present",
-                description: ["Led the development of an innovative AI-powered shift scheduling platform for the hospitality industry.", "Architected and implemented a scalable microservices-based backend using Node.js and GraphQL.", "Designed and developed a responsive front-end application using React and Next.js.", "Integrated advanced machine learning algorithms for intelligent shift allocation and demand forecasting.", "Managed a team of developers, fostering a culture of innovation and continuous improvement."],
+                title: "Cloud Team Developer",
+                company: "SDC USICT",
+                location: "Dwarka, New Delhi",
+                period: "August 2024 - Present",
+                description: ["Have become an integral part of the SDC Club at my university."],
                 logo: "/shifti.png",
-                skills: ["NextJS", "Supabase", "React Native", "Expo", "Machine Learning", "Tauri"]
-            }, {
-                title: "Software Development Intern",
-                company: "Preezie",
-                location: "Melbourne, Victoria",
-                period: "November 2022 - March 2023",
-                description: ["Demonstrated proficiency in Angular 4, React, .NET, and microservices.", "Developed effective solutions to complex issues and debugged code efficiently.", "Adapted to fast-paced development environments and worked with both legacy and modern technologies.", "Collaborated with cross-functional teams, enhancing communication and teamwork skills."],
-                logo: "/preezie.png",
-                skills: ["Angular 4", "React", ".NET", "Microservices"]
-            }];
+                skills: ["NextJS", "React Native", "Expo", "Machine Learning",]
+            }
+    ];
             var g = () => (0, s.jsxs)("section", {
                     id: "experience",
                     className: "mb-12",
@@ -223,20 +216,6 @@
                 githubLink: "https://github.com/yourusername/cafe-loyalty",
                 liveLink: "https://cafeloyalty-demo.com"
             }, {
-                name: "Quantum-Resistant Password Manager",
-                description: ["Developed a high-performance, cryptographically secure password manager using Rust and post-quantum algorithms", "Designed a zero-knowledge architecture, enhancing user privacy and security", "Utilized efficient data structures (B-trees) for optimized password storage and retrieval", "Implemented advanced features including 2FA, secure password sharing, and encrypted backups"],
-                technologies: ["Rust", "Post-Quantum Cryptography"],
-                image: "/password-manager-project.jpg",
-                githubLink: "https://github.com/yourusername/quantum-pass",
-                liveLink: "https://quantum-pass-demo.com"
-            }, {
-                name: "InvoiceNinja: Freelancer Invoicing App",
-                description: ["Developed a user-friendly invoicing application tailored for freelancers", "Implemented features such as invoice generation, expense tracking, and client management", "Integrated payment gateways for seamless online payments", "Created insightful financial reports and dashboards for business analysis"],
-                technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-                image: "/invoice-ninja-project.jpg",
-                githubLink: "https://github.com/yourusername/invoice-ninja",
-                liveLink: "https://invoice-ninja-demo.com"
-            }, {
                 name: "FitQuest: Interactive Workout Companion",
                 description: ["Built a gamified workout application to make fitness routines more engaging", "Designed personalized workout plans based on user goals and fitness levels", "Implemented progress tracking and achievement system to boost user motivation", "Integrated with wearable devices for real-time workout data synchronization"],
                 technologies: ["React Native", "Firebase", "TensorFlow.js"],
@@ -244,26 +223,12 @@
                 githubLink: "https://github.com/yourusername/fitquest",
                 liveLink: "https://fitquest-demo.com"
             }, {
-                name: "StudyBuddy: Assignment Planner & Prior Learning Tracker",
-                description: ["Created a comprehensive study management tool for students", "Developed features for assignment planning, deadline tracking, and study session scheduling", "Implemented a prior learning section to track and review previously learned material", "Integrated with popular calendar apps for seamless schedule syncing"],
-                technologies: ["Vue.js", "Express.js", "PostgreSQL"],
-                image: "/studybuddy-project.jpg",
-                githubLink: "https://github.com/yourusername/studybuddy",
-                liveLink: "https://studybuddy-demo.com"
-            }, {
                 name: "Collectify: Personal Collections Manager",
                 description: ["Developed a versatile app for creating and managing personal collections", "Implemented features for adding, categorizing, and tagging items within collections", "Created a search and filter system for easy navigation of large collections", "Designed a user-friendly interface for seamless collection management"],
                 technologies: ["React", "Redux", "Node.js", "MongoDB"],
                 image: "/collectify-project.jpg",
                 githubLink: "https://github.com/yourusername/collectify",
                 liveLink: "https://collectify-demo.com"
-            }, {
-                name: "ShowTrackr: TV & Movie Release Tracker",
-                description: ["Built an application to track new releases of TV shows and movies", "Integrated with popular media databases to fetch accurate and up-to-date information", "Implemented personalized watchlists and notifications for upcoming releases", "Created a recommendation system based on user preferences and viewing history"],
-                technologies: ["Angular", "NestJS", "PostgreSQL", "TMDb API"],
-                image: "/showtrackr-project.jpg",
-                githubLink: "https://github.com/yourusername/showtrackr",
-                liveLink: "https://showtrackr-demo.com"
             }];
             var f = () => (0, s.jsxs)("section", {
                     id: "projects",
@@ -336,7 +301,7 @@
                 }),
                 j = a(3872),
                 y = () => (0, s.jsxs)("a", {
-                    href: "/Oskar Frantti Glen Resume.pdf",
+                    href: "/Yash Mishra Resume.pdf",
                     download: !0,
                     className: "flex items-center bg-[#111111] hover:bg-white text-white hover:text-[#111111] px-3 py-1 rounded transition duration-300 mr-4 border border-white",
                     children: [(0, s.jsx)(u.ZJh, {
@@ -347,7 +312,7 @@
                 v = () => (0, s.jsxs)("div", {
                     className: "flex space-x-3 items-center",
                     children: [(0, s.jsx)(y, {}), (0, s.jsx)("a", {
-                        href: "https://github.com/OskarFranttiGlen",
+                        href: "https://github.com/yashmishra2006",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-gray-400 hover:text-white",
@@ -355,13 +320,13 @@
                             size: 24
                         })
                     }), (0, s.jsx)("a", {
-                        href: "mailto:OskarFranttiGlen@gmail.com",
+                        href: "mailto:yash.48725095@gmail.com",
                         className: "text-gray-400 hover:text-white",
                         children: (0, s.jsx)(u.SRX, {
                             size: 24
                         })
                     }), (0, s.jsx)("a", {
-                        href: "https://www.linkedin.com/in/oskar-frantti-glen-64ba0b1a2/",
+                        href: "https://www.linkedin.com/in/yash-mishra-27b75a1a7/",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-gray-400 hover:text-white",
@@ -369,7 +334,7 @@
                             size: 24
                         })
                     }), (0, s.jsx)("a", {
-                        href: "https://www.instagram.com/OskarFranttiGlen",
+                        href: "https://www.instagram.com/__yash.mishra___",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-gray-400 hover:text-white",
@@ -377,7 +342,7 @@
                             size: 24
                         })
                     }), (0, s.jsx)("a", {
-                        href: "https://twitter.com/OskarFranttiG",
+                        href: "https://twitter.com/yashmis64344013",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-gray-400 hover:text-white",
@@ -388,16 +353,10 @@
                 });
             let N = [{
                 degree: "Bachelor of Computer Science",
-                university: "Deakin University, Burwood, Victoria",
-                period: "July 2022 - Present",
+                university: "Guru Gobind Singh Indraprasta University",
+                period: "July 2024 - Present",
                 image: "/deakin-university-logo.png",
                 units: ["SIT232 Object-Oriented Development", "SIT292 Linear Algebra for Data Analytics", "SIT223 Proffessional Practice in I.T.", "SIT221 Data Structures & Algorithms", "SIT215 Computational Intelligence", "SIT202 Computer Networks", "SIT320 Advanced Algorithms", "SIT306 IT Placement", "SIT374 Project Design", "SIT216 User Centered Design", "SIT305 Mobile Application Development", "SIT331 Full Stack Development: Secure Backend Services", "SIT378 Team Project(B)", "SIT315 Concurrent & Distributed Programming", "SIT120 Introduction to Responsive Web Apps", "SIT313 Full Stack Development: Secure Frontend Applications"]
-            }, {
-                degree: "Diploma of Information Technology",
-                university: "Deakin College, Burwood, Victoria",
-                period: "March 2021 - March 2022",
-                image: "/deakin-college-logo.png",
-                units: ["SIT102 Introduction to Programming", "SIT103 Data and Information Management", "SIT111 Computer Systems", "SIT112 Data Science Concepts", "SIT113 Cloud Computing", "SIT123 Data Capture Technologies", "SIT124 Exploring I.T.", "SIT192 Discrete Mathematics"]
             }];
             var w = () => (0, s.jsxs)("section", {
                     id: "education",
@@ -463,7 +422,7 @@
                             className: "flex flex-col items-end justify-center",
                             children: [(0, s.jsx)("p", {
                                 className: "text-sm",
-                                children: "Designed and built by Oskar Frantti Glen"
+                                children: "Designed and built by Yash Mishra"
                             }), (0, s.jsxs)("p", {
                                 className: "text-xs mt-2",
                                 children: ["\xa9 ", new Date().getFullYear(), " All rights reserved"]
