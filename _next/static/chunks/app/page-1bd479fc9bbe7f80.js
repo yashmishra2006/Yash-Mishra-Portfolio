@@ -17,7 +17,7 @@
                     children: [(0, s.jsx)("div", {
                         className: "mb-4 relative w-[150px] h-[150px] overflow-hidden rounded-full",
                         children: (0, s.jsx)(n.default, {
-                            src: "/profile-image.jpg",
+                            src: "profile-image.jpg",
                             alt: "Yash Mishra",
                             layout: "fill",
                             objectFit: "cover"
