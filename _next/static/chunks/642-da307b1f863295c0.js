@@ -34,7 +34,7 @@
                 m = {
                     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
                     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                    path: "./_next",
+                    path: "./_next/",
                     loader: "default",
                     dangerouslyAllowSVG: !1,
                     unoptimized: !1
@@ -645,7 +645,7 @@
                 n = {
                     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
                     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                    path: "./_next/image",
+                    path: "./_next/",
                     loader: "default",
                     loaderFile: "",
                     domains: [],
@@ -689,7 +689,7 @@
                     imgConf: {
                         deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
                         imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                        path: "/_next/image",
+                        path: "/_next/",
                         loader: "default",
                         dangerouslyAllowSVG: !1,
                         unoptimized: !1
@@ -710,7 +710,7 @@
                     width: n,
                     quality: r
                 } = t;
-                return e.path + "?url=" + encodeURIComponent(i) + "&w=" + n + "&q=" + (r || 75)
+                return e.path + encodeURIComponent(i)
             }
             Object.defineProperty(e, "__esModule", {
                 value: !0
