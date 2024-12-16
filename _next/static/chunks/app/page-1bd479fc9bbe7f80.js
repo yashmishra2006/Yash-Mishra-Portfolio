@@ -355,7 +355,7 @@
                 degree: "Bachelor of Computer Science",
                 university: "Guru Gobind Singh Indraprasta University",
                 period: "July 2024 - Present",
-                image: "./_next/ipulogo.png",
+                image: "ipulogo.png",
                 units: ["SIT232 Object-Oriented Development", "SIT292 Linear Algebra for Data Analytics", "SIT223 Proffessional Practice in I.T.", "SIT221 Data Structures & Algorithms", "SIT215 Computational Intelligence", "SIT202 Computer Networks", "SIT320 Advanced Algorithms", "SIT306 IT Placement", "SIT374 Project Design", "SIT216 User Centered Design", "SIT305 Mobile Application Development", "SIT331 Full Stack Development: Secure Backend Services", "SIT378 Team Project(B)", "SIT315 Concurrent & Distributed Programming", "SIT120 Introduction to Responsive Web Apps", "SIT313 Full Stack Development: Secure Frontend Applications"]
             }];
             var w = () => (0, s.jsxs)("section", {
